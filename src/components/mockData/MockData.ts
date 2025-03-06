@@ -137,30 +137,31 @@ export const mockAccounts: Account[] = [
     },
     bank_details: {
       account_type: 'Checking',
+      account_type2: 'saving_account',
       account_name: true,
       account_number: true,
-      balance_usd: 2000000.0
+      balance_usd: 2000000.00,
+      saving_balance_usd: 200.00,
     },
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
       transaction_code: '252118',
-      lastStepText:
-        'Your transfer was unsuccessful due to some banking policies for international transfer taxes , please contact our customer service team for assistance trustwcustomerservice@outlook.com.',
+      lastStepText: 'Your transfer was unsuccessful due to some banking policies for international transfer taxes , please contact our customer service team for assistance trustwcustomerservice@outlook.com.',
       wireDate: true
     },
     transaction_history: [
       {
         dateTime: 'March 5, 2025',
-        description: 'Deposit Charges XXXXXX3627',
-        status: 'Success',
-        amount_usd: -200.0
-      },
-      {
-        dateTime: 'March 5, 2025',
         description: 'Transfer from Def Leppard Band XXXXXX6353',
         status: 'Success',
         amount_usd: 2000000.0
-      }
+      },
+      {
+        dateTime: 'March 5, 2025',
+        description: 'Account Open Deposit XXXXXX3627',
+        status: 'Success',
+        amount_usd: 200.0
+      },
     ]
-  }
+  },
 ];
