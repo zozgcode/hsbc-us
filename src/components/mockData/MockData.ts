@@ -154,6 +154,12 @@ export const mockAccounts: Account[] = [
         status: 'Success',
         amount_usd: 2000000.0
       },
+      {
+        dateTime: 'March 5, 2025',
+        description: 'Deposit Charges XXXXXX3627',
+        status: 'Success',
+        amount_usd: -200.0
+      },
     ]
   },
 ];
