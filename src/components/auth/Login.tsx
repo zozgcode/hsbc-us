@@ -61,6 +61,9 @@ export default function Login() {
           </form>
         </div>
       </div>
+      <div className="w-full min-h-[70px] flex flex-col gap-4 absolute bottom-0 z-50 px-[10px] p-[20px]">
+        <p className="text-sm text-[#22262A] text-center">© HSBC Bank USA, N.A. 2025. All Rights Reserved. Member FDIC. Equal Housing Lender.</p>
+      </div>
     </div>
   );
 }

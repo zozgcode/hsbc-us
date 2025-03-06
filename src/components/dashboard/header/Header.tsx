@@ -12,8 +12,8 @@ export default function Header({ handleLogout, user }: any) {
   };
 
   return (
-    <div className="w-full min-h-[30px] relative flex items-center justify-between bg-[#f0f0f0] p-[20px] py-[15px]">
-      <Image src="https://i.imgur.com/PsNaFEP.png" width={230} height={28} className="w-[160px]" alt="logo" />
+    <div className="w-full min-h-[30px] border-b-2 border-b-[#DB0011]/50 relative flex items-center justify-between bg-[#ffffff] p-[20px] py-[15px]">
+      <Image src="https://i.imgur.com/CTjGRUS.png" width={230} height={28} className="w-[130px]" alt="logo" />
       <div className="relative">
         <RiLogoutCircleLine className="text-2xl text-black" onClick={toggleNav}/>
 

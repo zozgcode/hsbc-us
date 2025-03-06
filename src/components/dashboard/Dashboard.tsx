@@ -67,7 +67,7 @@ export default function Dashboard() {
         </div>
         <div className="px-[16px] mb-4">
           {user.bank_details.account_type2 == 'saving_account' ? (
-            <div className="flex flex-col justify-between gap-4 bg-[#DB0011] text-white p-4 rounded-lg">
+            <div className="flex flex-col justify-between gap-4 bg-[#DB0011]/80 text-white p-4 rounded-lg">
               <div className="flex justify-between gap-6">
                 <div className="flex flex-col">
                   <span className="text-[14px] flex items-center gap-1">
@@ -97,7 +97,7 @@ export default function Dashboard() {
               </div>
             </div>
           ) : (
-            <div className="border flex flex-col gap-6 bg-[#DB0011] text-white p-4 rounded-lg">
+            <div className="border flex flex-col gap-6 bg-[#DB0011]/80 text-white p-4 rounded-lg">
               <div className="flex items-center justify-between">
                 <span className="text-[14px] flex items-center gap-1">
                   Available balance
