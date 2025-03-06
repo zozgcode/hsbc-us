@@ -118,8 +118,8 @@ export default function Transfer() {
         if (user?.bank_details.account_number || user?.bank_details.account_name) {
           if (!formData.accountNumber) {
             errors.accountNumber = 'Account number is required';
-          } else if (formData.accountNumber && (formData.accountNumber.length < 8 || formData.accountNumber.length > 12)) {
-            errors.accountNumber = 'Account number must be between 8 and 12 digits';
+          } else if (formData.accountNumber && (formData.accountNumber.length < 8 || formData.accountNumber.length > 20)) {
+            errors.accountNumber = 'Account number must be between 8 and 20 digits';
           }
 
           if (!formData.accountName) {
